@@ -30,4 +30,6 @@ firstName.onchange = function(){
 
 }};
 
+console.log("Registration App")
+
 
