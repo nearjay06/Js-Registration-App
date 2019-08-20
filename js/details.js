@@ -1,11 +1,16 @@
 const firstName = document.querySelector("#firstName");
-const secondName = document.querySelector("#secondName");
+// const secondName = document.querySelector("#secondName");
 const ourContent = document.querySelector(".content");
+// const addBtn = document.querySelector(".addBtn");
+const ourForm = document.querySelector("#form");
+
+
+
 
 //const ourPara = document.createElement ("span");
 const ourList = [];
 //onchange Method
-firstName.onchange = function(){
+function createName(){
     if (firstName.value.length<3 ||
         firstName.value === '' )
         {
@@ -27,9 +32,33 @@ firstName.onchange = function(){
     ourPara.innerHTML = `${index + 1} . ${item}`
     ourContent.appendChild(ourPara);
   });
+  firstName.value=''
 
 }};
 
-console.log("Registration App")
+// firstName.onchange = createName;
+// addBtn.onclick = createName;
 
+// Assignment: write code to clear the input after submitting into the form
+
+
+
+
+function submitForm(event){
+    createName();
+    event.preventDefault()
+    console.log(event)
+
+}
+
+ourForm.onsubmit=submitForm
+console.log("Registration App");
+
+
+
+
+
+
+
+// form.onsubmit = createName;
 
