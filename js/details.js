@@ -2,9 +2,9 @@ const firstName = document.querySelector("#firstName");
 // const secondName = document.querySelector("#secondName");
 const ourContent = document.querySelector(".content");
 // const addBtn = document.querySelector(".addBtn");
-const ourForm = document.querySelector("#form");
-
-
+const username= document.querySelector("#userName");
+const password = document.querySelector("#passWord");
+const confirm = document.querySelector("#confirmPass");
 
 
 //const ourPara = document.createElement ("span");

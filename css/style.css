@@ -5,7 +5,7 @@
 }
 body{
     box-sizing:border-box;
-    background-color: #333;
+    background-color: rgb(122, 169, 177);
     color:#fff;
 
  }
@@ -14,21 +14,57 @@ body{
      
      display:block;
      margin-top:15px;
-     background-color:lightsalmon;
-     border:1px solid brown;
+     background-color:rgb(204, 220, 223);
+     border:1px solid gray;
+     font-family:cambria;
+     font-weight:bold;
+     color:black;
+     padding: 8px;
+     border-radius:10px;
+     width:45%;
+
      
  }
 
  .container button{
      display:block;
      margin-top:10px;
-     background-color: blue;
+     background-color: rgb(189, 189, 218);
      width:100px;
      height:25px;
-     color:#fff;
      border:1px solid gray;
+     border-radius: 8px;
+     text-decoration: none;
+     margin-left: 40px;
+     width:20%;
+     padding:2px;
+     
  }
 
  .ourPara{
      display: block;
  }
+
+ #form{
+     padding-left:500px;
+     padding-top: 20px;
+     
+     
+     
+ }
+
+ h1{
+     text-align:center;
+     color:black;
+     font-size:30px;
+     padding-top:20px;
+ }
+
+.container a{
+    font-family:cambria;
+    color:black;
+    text-decoration: none;
+    font-weight:bold;
+    font-size :16px;
+}
+
